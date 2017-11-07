@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/ImageViewTask"
+        android:layout_width="135dp"
+        android:layout_height="99dp"
+        app:srcCompat="@drawable/task"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/TextViewTaskName"
+        android:layout_width="251dp"
+        android:layout_height="35dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="128dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/TextViewTaskPriority"
+        android:layout_width="182dp"
+        android:layout_height="36dp"
+        android:layout_below="@+id/TextViewTaskName"
+        android:layout_toEndOf="@+id/textView8"
+        android:layout_toRightOf="@+id/textView8"
+        android:text="TextView"
+        android:textSize="16dp"
+        tools:layout_editor_absoluteX="197dp"
+        tools:layout_editor_absoluteY="51dp" />
+
+    <TextView
+        android:id="@+id/TextViewTaskDate"
+        android:layout_width="183dp"
+        android:layout_height="33dp"
+        android:layout_below="@+id/TextViewTaskPriority"
+        android:layout_toEndOf="@+id/textView9"
+        android:layout_toRightOf="@+id/textView9"
+        android:text="TextView"
+        android:textSize="16dp"
+        tools:layout_editor_absoluteX="197dp"
+        tools:layout_editor_absoluteY="87dp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="69dp"
+        android:layout_height="37dp"
+        android:layout_above="@+id/TextViewTaskDate"
+        android:layout_alignEnd="@+id/textView9"
+        android:layout_alignRight="@+id/textView9"
+        android:text="Prioriteit: "
+        android:textSize="16dp"
+        tools:layout_editor_absoluteX="128dp"
+        tools:layout_editor_absoluteY="51dp" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="70dp"
+        android:layout_height="29dp"
+        android:layout_alignBottom="@+id/ImageViewTask"
+        android:layout_toEndOf="@+id/ImageViewTask"
+        android:layout_toRightOf="@+id/ImageViewTask"
+        android:text="Datum: "
+        android:textSize="16dp"
+        tools:layout_editor_absoluteX="127dp"
+        tools:layout_editor_absoluteY="87dp" />
+
+</RelativeLayout>

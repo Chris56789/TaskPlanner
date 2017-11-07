@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.azure.cloudapp.westeurope.chrisserver2.takenplanner.MainActivity">
+
+    <LinearLayout
+        android:layout_width="252dp"
+        android:layout_height="48dp"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="132dp"
+        tools:layout_editor_absoluteY="20dp">
+
+        <Button
+            android:id="@+id/MinusButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-"
+            android:textSize="24dp" />
+
+        <TextView
+            android:id="@+id/PickerText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center" />
+
+        <Button
+            android:id="@+id/PlusButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+"
+            android:textSize="24dp" />
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
