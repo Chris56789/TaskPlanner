@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/TakenPlanner.iml" filepath="$PROJECT_DIR$/TakenPlanner.iml" />
+      <module fileurl="file://C:\Users\chris\StudioProjects\TaskPlanner\TakenPlanner.iml" filepath="C:\Users\chris\StudioProjects\TaskPlanner\TakenPlanner.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/TaskPlanner.iml" filepath="$PROJECT_DIR$/.idea/TaskPlanner.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://C:\Users\chris\StudioProjects\TaskPlanner\app\app.iml" filepath="C:\Users\chris\StudioProjects\TaskPlanner\app\app.iml" />
     </modules>
   </component>
 </project>
